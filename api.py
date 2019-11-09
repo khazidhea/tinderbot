@@ -1,5 +1,5 @@
 import requests
-from profile import Person
+from person import Person
 
 
 TINDER_URL = "https://api.gotinder.com"
