@@ -1,0 +1,6 @@
+__pycache__
+*.dat
+*.h5
+pics
+downloads
+.ipynb_checkpoints
