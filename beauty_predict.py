@@ -79,7 +79,7 @@ def beauty_predict(path):
         out = score_mapping(out)
 
         # blur for privacy reasons
-        # im = cv2.GaussianBlur(im,(75, 75), 0)
+        # im = cv2.GaussianBlur(im, (101, 101), 0)
 
         # draw rectangle and score
         cv2.rectangle(im, (face[0], face[1]), (face[2], face[3]), (0, 255, 0), 3)
